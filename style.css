@@ -1,0 +1,101 @@
+@charset "utf-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em; 
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+body{
+    min-height: 100vh;
+    font-family:'Patrick Hand', cursive;;
+}
+section{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+section.imagem{
+    max-width: 100%;
+    display: flex;
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position:center center ;
+    background-position: no-repeat;
+    background-attachment: fixed;
+}
+section.imagem >p{
+   font-size: 1.2em;
+   width: 350px;
+   height: 300px;
+   background-color: rgba(0, 0, 0, 0.288);
+   margin: auto;
+   text-align:center;
+   text-indent: 10px;
+   color: white;
+   padding: 20px;
+   line-height: 40px;
+   border-radius: 10px;
+}
+
+section.normal{
+   background-color:rgba(0, 0, 0, 0.911);
+   color: #fff;
+   line-height: 40px;
+   text-align: justify;
+}
+section.normal >h2{
+    font-size: 1.3em;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px
+}
+section.normal > p{
+    padding: 10px;
+}
+section.normal >ul{
+   color: #fff;
+   padding: 30px;
+   line-height: 40px;
+   text-align: justify;
+}
+section aside{
+    text-align: center;
+    background-color:#3C6BBD;
+}
+
+
+
+
+
+
+aside a{
+    color: #fff;
+    text-decoration: none;
+}
+aside a:hover{
+    text-decoration: underline;
+    color:#394AF4;
+}
+
+
+section#img01{
+    max-width: 100%;
+    display: flex;
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position:center right;
+    background-position: no-repeat;
+    background-attachment: fixed;
+
+    background-image: url(imagens/lander-05.jpg);
+  } 
+
+section#img02{
+    background-image: url(imagens/lander-03.jpg
+    );
+
+ 
+}
